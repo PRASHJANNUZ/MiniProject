@@ -89,15 +89,7 @@ private static void initializeAvengers() {
     avengers.add(new Avenger("Hawkeye", 2, "Clint Barton", "Master Archer", NotificationChannel.PAGER));
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+     
     
     
     
@@ -121,7 +113,8 @@ private static void initializeAvengers() {
 			}
 	       
 	}    
-			@Override
+	
+		@Override
 	    	public void assignMissionToAvengers() {
 	    		
 	    		try {
@@ -206,6 +199,7 @@ private static void initializeAvengers() {
 				}
 				
 			}
+	
 			@Override
 			public void checkAvengerDetails() {
 				
@@ -230,6 +224,7 @@ private static void initializeAvengers() {
 				}
 				
 			}
+	
 			@Override
 			public void updateMissionStatus() {
 				try {
@@ -273,6 +268,7 @@ private static void initializeAvengers() {
 				}
 				
 			}
+	
 			@Override
 			public void listAvengers() {
 				try {
@@ -291,6 +287,7 @@ private static void initializeAvengers() {
 				
 			}
 
+			@Override
 			public void assignAvengerToMission() {
 				
 				try {
